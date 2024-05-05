@@ -151,10 +151,12 @@
     text-align: center;
   }
 
-  .text{
+   .text{
     width: 60%;
     margin: 20px auto;
+    font-size: 12px;
   }
+  
   .card {
     width: 90%;
     margin: 30px auto;
