@@ -151,10 +151,20 @@
     text-align: center;
   }
 
-  .text, .card {
-    width: 90%;
+  .text{
+    width: 60%;
     margin: 20px auto;
   }
+  .card {
+    width: 90%;
+    margin: 30px auto;
+    /* padding: 20px; */
+  }
+  .loginInput, .btnDiv, .loginHead, .in{
+    padding: 10px;
+    font-size: 10px;
+  }
+  
 
   .loginHead {
     font-size: 15px;
@@ -163,11 +173,13 @@
   .inputField {
     width: calc(100% - 20px);
     max-width: 100%;
+    margin: 10px;
   }
 
   .btnDiv {
     flex-direction: column;
     gap: 10px;
+    align-items: center;
   }
 
   .loginBtn, .resetBtn {
@@ -177,5 +189,6 @@
 
   .btnDiv2 {
     width: 100%;
+    padding: 15px;
   }
 }
