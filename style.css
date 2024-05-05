@@ -143,3 +143,39 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+  .sec1 {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .text, .card {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .loginHead {
+    font-size: 15px;
+  }
+
+  .inputField {
+    width: calc(100% - 20px);
+    max-width: 100%;
+  }
+
+  .btnDiv {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .loginBtn, .resetBtn {
+    width: calc(50% - 10px);
+    height: 40px;
+  }
+
+  .btnDiv2 {
+    width: 100%;
+  }
+}
